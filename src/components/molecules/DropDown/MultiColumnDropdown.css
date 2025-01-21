@@ -1,0 +1,64 @@
+/* Modal Styles */
+.modal.open {
+    display: block;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+  }
+  
+  .modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    z-index: 20;
+  }
+  
+  .dropdown-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .dropdown-wrapper {
+    width: 45%;
+  }
+  
+  label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #000;
+  }
+  
+  .dropdown {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+  }
+  
+  .apply-button {
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .apply-button:hover {
+    background-color: #1c75d1;
+  }
+  
