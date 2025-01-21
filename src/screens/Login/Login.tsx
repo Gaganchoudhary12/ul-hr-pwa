@@ -13,7 +13,7 @@ const msalConfig = {
     clientId: "6ea2b4bf-26fd-42b5-96ed-97c3afac7f6c",
     authority:
       "https://login.microsoftonline.com/d677be2e-87d7-42ef-8543-d02f41c4ca61",
-    redirectUri: "http://localhost:3000/home",
+    redirectUri: "https://unicult.vercel.app/home",
   },
 };
 
